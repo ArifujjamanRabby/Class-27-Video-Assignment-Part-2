@@ -1,0 +1,156 @@
+@media all and (max-width: 1220px) {
+    .fixed-width {
+        max-width: 100%;
+        padding: 0 50px 0;
+    }
+
+    .header-logo {
+        width: 20%;
+    }
+
+    .header-menu {
+        width: 80%;
+    }
+
+    .header-menu .h-menu li a {
+        padding: 0 25px;
+    }
+
+    .news-letter input[type="email"] {
+        width: 100%;
+        margin: 0;
+        float: none;
+    }
+
+    .form-btn {
+        margin: 0;
+        float: none;
+    }
+
+    .form-button {
+        margin-top: 20px;
+    }
+
+}
+
+@media all and (max-width: 960px) {
+    .header-logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-menu {
+        width: 100%;
+    }
+
+    .header-menu .h-menu {
+        list-style: none;
+        text-align: center;
+    }
+
+    .header-menu .h-menu li {
+        display: inline-block;
+        border-right: none;
+        margin-left: -4px;
+    }
+
+    .banner {
+        padding: 125px 0;
+    }
+
+    .service-item {
+        width: 100%;
+        margin: 16px 0;
+    }
+
+    article {
+        width: 100%;
+        float: none !important;
+    }
+
+    .notice {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media all and (max-width: 760px) {
+    .banner {
+        background: url(https://i.ibb.co/bRyWS1j/unnamed.jpg) no-repeat top left;
+        background-size: cover;
+    }
+    .header-menu .h-menu li a {
+        padding: 0 12px;
+    }
+
+    .about {
+        padding: 30px 0;
+    }
+
+    .about {
+        padding: 30px 0;
+    }
+
+    .service {
+        padding: 35px 0;
+    }
+
+    .artical-section {
+        padding: 30px 0;
+    }
+
+    .news-letter {
+        padding: 35px 0;
+    }
+
+    footer .content {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .footer-menu {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin: 0;
+    }
+
+    .footer-menu ul li a {
+        color: #fff;
+        font-size: 1em;
+    }
+
+}
+
+@media all and (max-width: 576px) {
+    .banner {
+        background: url(https://i.ibb.co/bRyWS1j/unnamed.jpg) no-repeat top left;
+        background-size: cover;
+        padding: 90px 0;
+    }
+    .banner-title h1 {
+        margin: 16px auto 0;
+        padding: 0px 0;
+        width: 80%;
+        font-size: 1.6em;
+    }
+    .banner-title h2 {
+        font-size: 1em;
+    }
+    .news-letter input[type="email"] {
+        font-size: 1em;
+    }
+    .form-btn {
+        font-size: 1em;
+    }
+}
+
+@media all and (max-width: 350px) {
+    .service-item h2 {
+        font-size: 1rem;
+    }
+    .service-item p {
+        font-size: .8rem;
+    }
+}
