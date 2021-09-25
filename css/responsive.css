@@ -54,6 +54,16 @@
         margin-left: -4px;
     }
 
+    .header-menu .h-menu {
+        list-style: none;
+        padding: 0 0 16px;
+    }
+
+    .header-menu .h-menu li a {
+        padding: 0 20px;
+        line-height: 0px;
+    }
+
     .banner {
         padding: 125px 0;
     }
@@ -123,6 +133,14 @@
 
 }
 
+@media all and (max-width: 650px) {
+    .header-menu .h-menu {
+        padding: 0 0 8px;
+    }
+    .header-menu .h-menu li a {
+        font-size: 1em;
+    }
+}
 @media all and (max-width: 576px) {
     .banner {
         background: url(https://i.ibb.co/bRyWS1j/unnamed.jpg) no-repeat top left;
@@ -144,13 +162,30 @@
     .form-btn {
         font-size: 1em;
     }
+    .fixed-width {
+        max-width: 100%;
+        padding: 0 16px 0;
+    }
+    footer .content p {
+        margin-bottom: 0;
+        display: inline-block;
+        line-height: 22px;
+    }
 }
 
+@media all and (max-width: 470px) {
+    .header-menu .h-menu li a {
+        font-size: .8em;
+    }
+}
 @media all and (max-width: 350px) {
     .service-item h2 {
         font-size: 1rem;
     }
     .service-item p {
         font-size: .8rem;
+    }
+    footer .content p {
+        font-size: 12px;
     }
 }
